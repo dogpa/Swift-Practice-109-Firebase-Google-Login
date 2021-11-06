@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B49F46C8F5E5D11C7EBE3A /* Pods_Swift_Practice___109_Firebase_Google_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E733CD5C1BCCF96173672F03 /* Pods_Swift_Practice___109_Firebase_Google_Login.framework */; };
 		2DC9AA942736776400FDD6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AA932736776400FDD6E7 /* AppDelegate.swift */; };
 		2DC9AA962736776400FDD6E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AA952736776400FDD6E7 /* SceneDelegate.swift */; };
-		2DC9AA982736776400FDD6E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AA972736776400FDD6E7 /* ViewController.swift */; };
 		2DC9AA9B2736776400FDD6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9AA992736776400FDD6E7 /* Main.storyboard */; };
 		2DC9AA9D2736776600FDD6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9AA9C2736776600FDD6E7 /* Assets.xcassets */; };
 		2DC9AAA02736776600FDD6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9AA9E2736776600FDD6E7 /* LaunchScreen.storyboard */; };
+		2DC9AAA827367AC500FDD6E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9AAA727367AC500FDD6E7 /* GoogleService-Info.plist */; };
+		2DC9AAAA273680F500FDD6E7 /* GoogleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AAA9273680F500FDD6E7 /* GoogleLoginViewController.swift */; };
+		2DC9AAAE2736815800FDD6E7 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AAAD2736815800FDD6E7 /* LoginSuccessViewController.swift */; };
+		2DC9AAB12736B8F900FDD6E7 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9AAB02736B8F900FDD6E7 /* TransferView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DC9AA902736776400FDD6E7 /* Swift Practice # 109 Firebase Google Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 109 Firebase Google Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC9AA932736776400FDD6E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DC9AA952736776400FDD6E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DC9AA972736776400FDD6E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DC9AA9A2736776400FDD6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DC9AA9C2736776600FDD6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC9AA9F2736776600FDD6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DC9AAA12736776600FDD6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC9AAA727367AC500FDD6E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DC9AAA9273680F500FDD6E7 /* GoogleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginViewController.swift; sourceTree = "<group>"; };
+		2DC9AAAD2736815800FDD6E7 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		2DC9AAB02736B8F900FDD6E7 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		993DA8AE7DE937ED7665ACFB /* Pods-Swift Practice # 109 Firebase Google Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice # 109 Firebase Google Login.debug.xcconfig"; path = "Target Support Files/Pods-Swift Practice # 109 Firebase Google Login/Pods-Swift Practice # 109 Firebase Google Login.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D1437D1685F87F8B745BEE /* Pods-Swift Practice # 109 Firebase Google Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Practice # 109 Firebase Google Login.release.xcconfig"; path = "Target Support Files/Pods-Swift Practice # 109 Firebase Google Login/Pods-Swift Practice # 109 Firebase Google Login.release.xcconfig"; sourceTree = "<group>"; };
+		E733CD5C1BCCF96173672F03 /* Pods_Swift_Practice___109_Firebase_Google_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Swift_Practice___109_Firebase_Google_Login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B49F46C8F5E5D11C7EBE3A /* Pods_Swift_Practice___109_Firebase_Google_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				2DC9AA922736776400FDD6E7 /* Swift Practice # 109 Firebase Google Login */,
 				2DC9AA912736776400FDD6E7 /* Products */,
+				EF3DBA3244670EE064B071C8 /* Pods */,
+				41FC96DA7DEBAC2CE0493E66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +70,58 @@
 			isa = PBXGroup;
 			children = (
 				2DC9AA932736776400FDD6E7 /* AppDelegate.swift */,
+				2DC9AAAF2736B8CB00FDD6E7 /* Function For Two VC */,
+				2DC9AAAB273680FB00FDD6E7 /* Login Page 登入頁 */,
+				2DC9AAAC2736812400FDD6E7 /* Login Success Page 登入成功頁 */,
 				2DC9AA952736776400FDD6E7 /* SceneDelegate.swift */,
-				2DC9AA972736776400FDD6E7 /* ViewController.swift */,
 				2DC9AA992736776400FDD6E7 /* Main.storyboard */,
 				2DC9AA9C2736776600FDD6E7 /* Assets.xcassets */,
 				2DC9AA9E2736776600FDD6E7 /* LaunchScreen.storyboard */,
 				2DC9AAA12736776600FDD6E7 /* Info.plist */,
+				2DC9AAA727367AC500FDD6E7 /* GoogleService-Info.plist */,
 			);
 			path = "Swift Practice # 109 Firebase Google Login";
+			sourceTree = "<group>";
+		};
+		2DC9AAAB273680FB00FDD6E7 /* Login Page 登入頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9AAA9273680F500FDD6E7 /* GoogleLoginViewController.swift */,
+			);
+			path = "Login Page 登入頁";
+			sourceTree = "<group>";
+		};
+		2DC9AAAC2736812400FDD6E7 /* Login Success Page 登入成功頁 */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9AAAD2736815800FDD6E7 /* LoginSuccessViewController.swift */,
+			);
+			path = "Login Success Page 登入成功頁";
+			sourceTree = "<group>";
+		};
+		2DC9AAAF2736B8CB00FDD6E7 /* Function For Two VC */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9AAB02736B8F900FDD6E7 /* TransferView.swift */,
+			);
+			path = "Function For Two VC";
+			sourceTree = "<group>";
+		};
+		41FC96DA7DEBAC2CE0493E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E733CD5C1BCCF96173672F03 /* Pods_Swift_Practice___109_Firebase_Google_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3DBA3244670EE064B071C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				993DA8AE7DE937ED7665ACFB /* Pods-Swift Practice # 109 Firebase Google Login.debug.xcconfig */,
+				C7D1437D1685F87F8B745BEE /* Pods-Swift Practice # 109 Firebase Google Login.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC9AAA42736776600FDD6E7 /* Build configuration list for PBXNativeTarget "Swift Practice # 109 Firebase Google Login" */;
 			buildPhases = (
+				DC6481C021FC04DC8E227E24 /* [CP] Check Pods Manifest.lock */,
 				2DC9AA8C2736776400FDD6E7 /* Sources */,
 				2DC9AA8D2736776400FDD6E7 /* Frameworks */,
 				2DC9AA8E2736776400FDD6E7 /* Resources */,
+				F4708C88E83B538880412014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC9AAA02736776600FDD6E7 /* LaunchScreen.storyboard in Resources */,
+				2DC9AAA827367AC500FDD6E7 /* GoogleService-Info.plist in Resources */,
 				2DC9AA9D2736776600FDD6E7 /* Assets.xcassets in Resources */,
 				2DC9AA9B2736776400FDD6E7 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +192,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC6481C021FC04DC8E227E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift Practice # 109 Firebase Google Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4708C88E83B538880412014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 109 Firebase Google Login/Pods-Swift Practice # 109 Firebase Google Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 109 Firebase Google Login/Pods-Swift Practice # 109 Firebase Google Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift Practice # 109 Firebase Google Login/Pods-Swift Practice # 109 Firebase Google Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DC9AA8C2736776400FDD6E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC9AA982736776400FDD6E7 /* ViewController.swift in Sources */,
+				2DC9AAAE2736815800FDD6E7 /* LoginSuccessViewController.swift in Sources */,
+				2DC9AAB12736B8F900FDD6E7 /* TransferView.swift in Sources */,
 				2DC9AA942736776400FDD6E7 /* AppDelegate.swift in Sources */,
 				2DC9AA962736776400FDD6E7 /* SceneDelegate.swift in Sources */,
+				2DC9AAAA273680F500FDD6E7 /* GoogleLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +387,7 @@
 		};
 		2DC9AAA52736776600FDD6E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993DA8AE7DE937ED7665ACFB /* Pods-Swift Practice # 109 Firebase Google Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +407,7 @@
 		};
 		2DC9AAA62736776600FDD6E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D1437D1685F87F8B745BEE /* Pods-Swift Practice # 109 Firebase Google Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
